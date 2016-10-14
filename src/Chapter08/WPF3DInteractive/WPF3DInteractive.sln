@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WPF3DInteractive", "WPF3DInteractive.fsproj", "{2BC556C5-0F8C-4CA3-8911-F03CE6D80A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC556C5-0F8C-4CA3-8911-F03CE6D80A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC556C5-0F8C-4CA3-8911-F03CE6D80A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC556C5-0F8C-4CA3-8911-F03CE6D80A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC556C5-0F8C-4CA3-8911-F03CE6D80A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

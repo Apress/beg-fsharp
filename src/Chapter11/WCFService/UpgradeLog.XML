@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="l10_08_WCFService">
+</Property><Property Name="Solution File" Value="D:\code\FOFS\ScendonEdition\Chapter10\WCFService\l10_08_WCFService.sln">
+</Property><Property Name="Date" Value="14 December 2008">
+</Property><Property Name="Time" Value="10:48">
+</Property></Properties><Event ErrorLevel="0" Project="WCFProxy" Source="WCFProxy\WCFProxy.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WCFProxy" Source="WCFProxy\WCFProxy.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="l10_08_WCFService.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="l10_08_WCFService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WCFProxy" Source="WCFProxy\WCFProxy.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LazyLoading", "LazyLoading\LazyLoading.fsproj", "{F668BA66-0F3E-4BCB-A6A2-FAFE57243426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F668BA66-0F3E-4BCB-A6A2-FAFE57243426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F668BA66-0F3E-4BCB-A6A2-FAFE57243426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F668BA66-0F3E-4BCB-A6A2-FAFE57243426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F668BA66-0F3E-4BCB-A6A2-FAFE57243426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

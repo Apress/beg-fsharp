@@ -1,0 +1,29 @@
+{
+module Strangelights.ExpressionParser.Lexer
+
+open System
+open System.Text
+open Strangelights.ExpressionParser.Parser
+open Microsoft.FSharp.Text.Lexing
+
+let curLexeme (lb: LexBuffer<byte>) =
+    Encoding.ASCII.GetString(lb.Lexeme, 0, lb.Lexeme.Length)
+}
+
+let digit = ['0'-'9']
+let whitespace = [' ' '\t' ]
+let newline = ('\n' | '\r' '\n')
+
+rule token = parse
+| whitespace	{ token lexbuf }
+| newline { token lexbuf }
+| "("               { LPAREN }
+| ")"               { RPAREN }
+| "*"               { MULTI }
+| "/"               { DIV }
+| "+"               { PLUS }
+| "-"               { MINUS }
+| ['a'-'z' 'A'-'Z' '_']+	    { ID( curLexeme(lexbuf)) }
+| ['-']?digit+('.'digit+)?(['e''E']digit+)?   
+                    { FLOAT (Double.Parse(curLexeme(lexbuf))) }
+| eof   { EOF }

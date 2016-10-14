@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService", "WCFService\", "{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WCFService"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Documents and Settings\Robert\Mes documents\Books\Foundations of F#\Code\Chapter10\WCFService\WCFService"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WCFService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WCFService"
+		Release.AspNetCompiler.PhysicalPath = "C:\Documents and Settings\Robert\Mes documents\Books\Foundations of F#\Code\Chapter10\WCFService\WCFService"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WCFService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1033"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWCFService", "WCFService\FSharpWCFService.fsproj", "{806270E6-4B53-432C-907A-C0379C3A7661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFProxy", "WCFProxy\WCFProxy.csproj", "{F53B450D-75E6-445E-9F68-D55FB02A51DC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWFCClient", "FSharpWFCClient\FSharpWFCClient.fsproj", "{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|.NET.Build.0 = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Debug|Win32.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|.NET.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|.NET.Build.0 = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{EF326744-2ED8-4E4F-B45A-A5622A7C1A7E}.Release|Win32.ActiveCfg = Debug|.NET
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|.NET.ActiveCfg = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|Win32.ActiveCfg = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Debug|Win32.Build.0 = Debug|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|.NET.ActiveCfg = Release|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|Any CPU.ActiveCfg = Release|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|Win32.ActiveCfg = Release|Win32
+		{806270E6-4B53-432C-907A-C0379C3A7661}.Release|Win32.Build.0 = Release|Win32
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F53B450D-75E6-445E-9F68-D55FB02A51DC}.Release|Win32.ActiveCfg = Release|Any CPU
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|.NET.ActiveCfg = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Debug|Win32.Build.0 = Debug|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|.NET.ActiveCfg = Release|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|Win32.ActiveCfg = Release|Win32
+		{79DBB37B-559F-4E94-BD9E-4B5F98B904A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

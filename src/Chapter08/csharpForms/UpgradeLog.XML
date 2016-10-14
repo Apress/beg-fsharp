@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="csharpForms">
+</Property><Property Name="Solution File" Value="D:\code\FOFS\SecondEdition\Chapter08\csharpForms\csharpForms.sln">
+</Property><Property Name="Date" Value="26 December 2008">
+</Property><Property Name="Time" Value="06:07">
+</Property></Properties><Event ErrorLevel="2" Project="csharpForms" Source="csharpForms\csharpForms.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="csharpForms.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="csharpForms.sln" Description="Converted">
+</Event></UpgradeLog>
